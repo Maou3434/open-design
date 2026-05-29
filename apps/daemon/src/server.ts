@@ -1152,6 +1152,8 @@ import {
   writeDeployConfig,
   NETLIFY_PROVIDER_ID,
   deployToNetlify,
+  RENDER_PROVIDER_ID,
+  deployToRender,
 } from './deploy.js';
 import {
   checkCloudflarePagesDeploymentLinks,
@@ -8309,6 +8311,7 @@ export async function startServer({
     VERCEL_PROVIDER_ID,
     CLOUDFLARE_PAGES_PROVIDER_ID,
     NETLIFY_PROVIDER_ID,
+    RENDER_PROVIDER_ID,
     isDeployProviderId,
     publicDeployConfigForProvider,
     readDeployConfig,
@@ -8331,6 +8334,7 @@ export async function startServer({
     cloudflarePagesDeploymentMetadata,
     prepareDeployPreflight,
     deployToNetlify,
+    deployToRender,
   };
   const mediaDeps = {
     MEDIA_PROVIDERS,
