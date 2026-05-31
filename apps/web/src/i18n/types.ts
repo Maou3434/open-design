@@ -4260,6 +4260,7 @@ export interface Dict {
   'fileViewer.deployTargetProduction': string;
   'fileViewer.netlifyProvider': string;
   'fileViewer.renderProvider': string;
+  'fileViewer.railwayProvider': string;
   'fileViewer.deployToProvider': string;
   'fileViewer.redeployToProvider': string;
   'fileViewer.deployingToProvider': string;
@@ -4301,6 +4302,11 @@ export interface Dict {
   'fileViewer.renderTokenPlaceholder': string;
   'fileViewer.renderTokenReuseHint': string;
   'fileViewer.renderTokenRequired': string;
+  'fileViewer.railwayToken': string;
+  'fileViewer.railwayTokenGetLink': string;
+  'fileViewer.railwayTokenPlaceholder': string;
+  'fileViewer.railwayTokenReuseHint': string;
+  'fileViewer.railwayTokenRequired': string;
   'fileViewer.githubPatToken': string;
   'fileViewer.githubPatTokenGetLink': string;
   'fileViewer.githubPatTokenPlaceholder': string;
