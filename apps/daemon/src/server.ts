@@ -1156,6 +1156,7 @@ import {
   deployToRender,
   RAILWAY_PROVIDER_ID,
   deployToRailway,
+  checkRailwayDeploymentLinks,
 } from './deploy.js';
 import {
   checkCloudflarePagesDeploymentLinks,
@@ -8339,6 +8340,7 @@ export async function startServer({
     deployToNetlify,
     deployToRender,
     deployToRailway,
+    checkRailwayDeploymentLinks,
   };
   const mediaDeps = {
     MEDIA_PROVIDERS,
